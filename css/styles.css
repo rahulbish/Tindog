@@ -1,0 +1,158 @@
+body{
+    font-family:"Montserrat";
+}
+#title{
+    background-color: #ec3069;
+    color:white;
+    
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+h1
+{   
+    font-size: 3rem;
+    height: 1.5;
+}
+.navbar-brand{
+
+}
+/* Nevigation Bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 17px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+/* Download-button */
+.download-button 
+{    
+     margin: 5% 3% 5% 0%; /* Top right bottom left */
+
+} 
+
+/* Titile-Image */
+
+.title-image{
+    width: 50%;
+    transform: rotate(30deg);    
+    position: absolute;
+    right: 30%
+}
+
+/* <!-- Features --> */
+
+#features{
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+    font-family: "Montserrat";
+    background-color: white;
+    position: relative;
+    
+}
+.para{
+    color:gray;
+}
+.fas{
+    color: #f15886;
+    margin-bottom: 1rem;
+
+}
+.fas:hover{
+    color: plum;
+}
+
+/* testimonial section */
+
+#testimonials {
+     
+    text-align: center;
+    background-color:#ec3069 ;
+    color: white;
+    z-index: 1;
+}
+h2{
+    font-family: "Montserrat";
+    font-size:  3rem;
+    line-height: 1;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* <!-- Press section --> */
+#press{
+    background-color:#ec3069 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px; /* top , left right , bottom */
+}
+.carousel-item{
+    padding :7% 15%; /* top bottom  and left right */
+}
+
+
+/* Pricing section */
+#pricing
+{
+  padding: 100px 100px 30px 100px;
+  text-align: center;
+}
+.pricing-column
+{
+    padding:2% 3%;
+    
+}
+
+
+/* Media quary  beakpoint */
+@media (max-width:990px) {
+    .title-image{
+        transform: rotate(0deg);    
+        position: static;
+    }
+   #title{
+       text-align: center;
+   }
+}
+
+#cta{
+    text-align: center;
+    background-color: #ec3069 ;
+    padding-top: 40px;
+
+    
+}
+
+h3{
+    width: 30rem;
+    margin: 0% 30%;
+    text-align: center;
+    color: white;
+}
+
+#footer{
+    text-align: center;
+    padding: 3rem 0rem;
+    color: gray;
+}
+.social{
+    padding: 0.7rem;
+}
